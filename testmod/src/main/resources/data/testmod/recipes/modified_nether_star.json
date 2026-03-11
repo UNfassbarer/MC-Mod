@@ -1,0 +1,11 @@
+{
+  "type": "testmod:mooning",
+  "ingredients": [
+    {
+      "item": "minecraft:nether_star"
+    }
+  ],
+  "output": {
+    "item": "testmod:modified_nether_star"
+  }
+}

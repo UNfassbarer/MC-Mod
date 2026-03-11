@@ -1,0 +1,83 @@
+{
+  "parent": "testmod:ardenim",
+  "criteria": {
+    "craft_ardenim_boots": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "testmod:ardenim_boots"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "craft_ardenim_chestplate": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "testmod:ardenim_chestplate"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "craft_ardenim_helmet": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "testmod:ardenim_helmet"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "craft_ardenim_leggings": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "testmod:ardenim_leggings"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "Equip every ardenim armor part"
+    },
+    "icon": {
+      "item": "testmod:ardenim_chestplate",
+      "nbt": "{Damage:0}"
+    },
+    "title": {
+      "translate": "Shiny but not heavy"
+    }
+  },
+  "requirements": [
+    [
+      "craft_ardenim_helmet"
+    ],
+    [
+      "craft_ardenim_chestplate"
+    ],
+    [
+      "craft_ardenim_leggings"
+    ],
+    [
+      "craft_ardenim_boots"
+    ]
+  ],
+  "rewards": {
+    "experience": 500
+  },
+  "sends_telemetry_event": true
+}

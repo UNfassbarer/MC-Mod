@@ -1,0 +1,37 @@
+{
+  "parent": "testmod:ardenim",
+  "criteria": {
+    "get_ardenim_apple": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "testmod:ardenim_apple"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "Craft the new apple"
+    },
+    "icon": {
+      "item": "testmod:ardenim_apple"
+    },
+    "title": {
+      "translate": "A new apple?"
+    }
+  },
+  "requirements": [
+    [
+      "get_ardenim_apple"
+    ]
+  ],
+  "rewards": {
+    "experience": 500
+  },
+  "sends_telemetry_event": true
+}

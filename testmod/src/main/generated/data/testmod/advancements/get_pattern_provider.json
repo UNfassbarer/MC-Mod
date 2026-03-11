@@ -1,0 +1,37 @@
+{
+  "parent": "testmod:get_ardenimium",
+  "criteria": {
+    "get_pattern_provider": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "testmod:pattern_provider"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "Craft a pattern provider"
+    },
+    "icon": {
+      "item": "testmod:pattern_provider"
+    },
+    "title": {
+      "translate": "Pattern pattern pattern..."
+    }
+  },
+  "requirements": [
+    [
+      "get_pattern_provider"
+    ]
+  ],
+  "rewards": {
+    "experience": 500
+  },
+  "sends_telemetry_event": true
+}

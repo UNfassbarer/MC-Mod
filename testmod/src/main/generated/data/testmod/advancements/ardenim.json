@@ -1,0 +1,37 @@
+{
+  "criteria": {
+    "get_ardenim": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "testmod:ardenim"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "background": "testmod:textures/block/smooth_ardenim_block.png",
+    "description": {
+      "translate": "Get your first ardenim Ingot"
+    },
+    "icon": {
+      "item": "testmod:ardenim"
+    },
+    "title": {
+      "translate": "testmod"
+    }
+  },
+  "requirements": [
+    [
+      "get_ardenim"
+    ]
+  ],
+  "rewards": {
+    "experience": 500
+  },
+  "sends_telemetry_event": true
+}

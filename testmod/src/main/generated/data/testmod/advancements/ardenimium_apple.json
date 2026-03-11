@@ -1,0 +1,38 @@
+{
+  "parent": "testmod:ardenim_apple",
+  "criteria": {
+    "get_ardenimium_apple": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "testmod:ardenimium_apple"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "Find the Ardenimium Apple!"
+    },
+    "frame": "challenge",
+    "icon": {
+      "item": "testmod:ardenimium_apple"
+    },
+    "title": {
+      "translate": "Compareable to the OP apple!"
+    }
+  },
+  "requirements": [
+    [
+      "get_ardenimium_apple"
+    ]
+  ],
+  "rewards": {
+    "experience": 500
+  },
+  "sends_telemetry_event": true
+}

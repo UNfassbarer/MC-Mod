@@ -1,0 +1,37 @@
+{
+  "parent": "testmod:ardenim",
+  "criteria": {
+    "get_ardenimium_egg": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "testmod:ardenimium_egg"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "Mine a Egg from an rare ore..."
+    },
+    "icon": {
+      "item": "testmod:ardenimium_egg"
+    },
+    "title": {
+      "translate": "An other egg?"
+    }
+  },
+  "requirements": [
+    [
+      "get_ardenimium_egg"
+    ]
+  ],
+  "rewards": {
+    "experience": 500
+  },
+  "sends_telemetry_event": true
+}

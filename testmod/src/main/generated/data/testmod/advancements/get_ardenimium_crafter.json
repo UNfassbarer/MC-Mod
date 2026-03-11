@@ -1,0 +1,37 @@
+{
+  "parent": "testmod:get_pattern_provider",
+  "criteria": {
+    "get_ardenimium_crafter": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "testmod:ardenimium_crafter"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "Craft a ardenimium crafter"
+    },
+    "icon": {
+      "item": "testmod:ardenimium_crafter"
+    },
+    "title": {
+      "translate": "New Crafting"
+    }
+  },
+  "requirements": [
+    [
+      "get_ardenimium_crafter"
+    ]
+  ],
+  "rewards": {
+    "experience": 500
+  },
+  "sends_telemetry_event": true
+}
